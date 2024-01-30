@@ -28,6 +28,7 @@ const resetGame = () => {
 const showWinner = (winner) => {
     msg.innerText = `Congratulations, Winner is ${winner}`;
     winMsg.classList.remove("hide");
+    disableBox();
 }
 
 const checkWinner = () => {
